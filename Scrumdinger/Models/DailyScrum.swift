@@ -17,7 +17,7 @@ struct DailyScrum: Identifiable {
 	init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
 		self.id = id
 		self.title = title
-		self.attendees = attendees.map { Attendee(name: $0)}
+		self.attendees = attendees.map { Attendee(name: $0) }
 		self.lengthInMinutes = lengthInMinutes
 		self.theme = theme
 	}
@@ -37,12 +37,19 @@ extension DailyScrum {
 	struct Data {
 		var title: String = ""
 		var attendees: [Attendee] = []
-		var lengthInMinute: Double = 5
+		var lengthInMinutes: Double = 5
 		var theme: Theme = .seafoam
 	}
 	
 	var data: Data {
-		Data(title: title, attendees: attendees, lengthInMinute: Double(lengthInMinutes), theme: theme)
+		Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
+	}
+	
+	mutating func update(from data: Data) {
+		title = data.title
+		attendees = data.attendees
+		lengthInMinutes = Int(data.lengthInMinutes)
+		theme = data.theme
 	}
 }
 
