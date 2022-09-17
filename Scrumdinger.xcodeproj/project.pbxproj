@@ -11,6 +11,8 @@
 		68090DCB28D462BF0050D1FC /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCA28D462BF0050D1FC /* ScrumProgressViewStyle.swift */; };
 		68090DCD28D477010050D1FC /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCC28D477010050D1FC /* ScrumTimer.swift */; };
 		68090DCF28D584CA0050D1FC /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */; };
+		68090DD128D591B70050D1FC /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DD028D591B70050D1FC /* AVPlayer+Ding.swift */; };
+		68090DD428D595410050D1FC /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68090DD328D595410050D1FC /* ding.wav */; };
 		680FB88A28D2AC22001EA05B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88928D2AC22001EA05B /* Theme.swift */; };
 		680FB88E28D2AFF2001EA05B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88D28D2AFF2001EA05B /* DailyScrum.swift */; };
 		680FB89028D2B09D001EA05B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88F28D2B09D001EA05B /* CardView.swift */; };
@@ -31,6 +33,8 @@
 		68090DCA28D462BF0050D1FC /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		68090DCC28D477010050D1FC /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		68090DD028D591B70050D1FC /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		68090DD328D595410050D1FC /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		680FB88928D2AC22001EA05B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		680FB88D28D2AFF2001EA05B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		680FB88F28D2B09D001EA05B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -58,9 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68090DD228D595410050D1FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68090DD328D595410050D1FC /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		680FB88828D2AC07001EA05B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				68090DD028D591B70050D1FC /* AVPlayer+Ding.swift */,
 				680FB88928D2AC22001EA05B /* Theme.swift */,
 				680FB88D28D2AFF2001EA05B /* DailyScrum.swift */,
 				68090DCC28D477010050D1FC /* ScrumTimer.swift */,
@@ -99,6 +112,7 @@
 				68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */,
 				68090DCA28D462BF0050D1FC /* ScrumProgressViewStyle.swift */,
 				680FB89128D2B353001EA05B /* TrailingIconLabelStyle.swift */,
+				68090DD228D595410050D1FC /* Resources */,
 				680FB88828D2AC07001EA05B /* Models */,
 				6839383628D21639009F9CF4 /* Assets.xcassets */,
 				6839383828D21639009F9CF4 /* Preview Content */,
@@ -172,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68090DD428D595410050D1FC /* ding.wav in Resources */,
 				6839383A28D21639009F9CF4 /* Preview Assets.xcassets in Resources */,
 				6839383728D21639009F9CF4 /* Assets.xcassets in Resources */,
 			);
@@ -199,6 +214,7 @@
 				6839383328D21638009F9CF4 /* ScrumdingerApp.swift in Sources */,
 				680FB89A28D30C53001EA05B /* ThemeView.swift in Sources */,
 				680FB89028D2B09D001EA05B /* CardView.swift in Sources */,
+				68090DD128D591B70050D1FC /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
