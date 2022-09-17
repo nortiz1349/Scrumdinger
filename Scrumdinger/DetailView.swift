@@ -16,7 +16,7 @@ struct DetailView: View {
     var body: some View {
 		List {
 			Section(header: Text("미팅 정보")) {
-				NavigationLink(destination: MeetingView()) {
+				NavigationLink(destination: MeetingView(scrum: $scrum)) {
 					Label("미팅 시작하기", systemImage: "timer")
 						.font(.headline)
 					.foregroundColor(.accentColor)

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68090DC928D45D510050D1FC /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DC828D45D510050D1FC /* MeetingHeaderView.swift */; };
+		68090DCB28D462BF0050D1FC /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCA28D462BF0050D1FC /* ScrumProgressViewStyle.swift */; };
+		68090DCD28D477010050D1FC /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCC28D477010050D1FC /* ScrumTimer.swift */; };
+		68090DCF28D584CA0050D1FC /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */; };
 		680FB88A28D2AC22001EA05B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88928D2AC22001EA05B /* Theme.swift */; };
 		680FB88E28D2AFF2001EA05B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88D28D2AFF2001EA05B /* DailyScrum.swift */; };
 		680FB89028D2B09D001EA05B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88F28D2B09D001EA05B /* CardView.swift */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68090DC828D45D510050D1FC /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		68090DCA28D462BF0050D1FC /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		68090DCC28D477010050D1FC /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		680FB88928D2AC22001EA05B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		680FB88D28D2AFF2001EA05B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		680FB88F28D2B09D001EA05B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -55,6 +63,7 @@
 			children = (
 				680FB88928D2AC22001EA05B /* Theme.swift */,
 				680FB88D28D2AFF2001EA05B /* DailyScrum.swift */,
+				68090DCC28D477010050D1FC /* ScrumTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,9 +94,12 @@
 				680FB89728D2FB7A001EA05B /* DetailEditView.swift */,
 				680FB89928D30C53001EA05B /* ThemeView.swift */,
 				680FB89B28D30FE1001EA05B /* ThemePicker.swift */,
+				6839383428D21638009F9CF4 /* MeetingView.swift */,
+				68090DC828D45D510050D1FC /* MeetingHeaderView.swift */,
+				68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */,
+				68090DCA28D462BF0050D1FC /* ScrumProgressViewStyle.swift */,
 				680FB89128D2B353001EA05B /* TrailingIconLabelStyle.swift */,
 				680FB88828D2AC07001EA05B /* Models */,
-				6839383428D21638009F9CF4 /* MeetingView.swift */,
 				6839383628D21639009F9CF4 /* Assets.xcassets */,
 				6839383828D21639009F9CF4 /* Preview Content */,
 			);
@@ -173,8 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				680FB89C28D30FE1001EA05B /* ThemePicker.swift in Sources */,
+				68090DCB28D462BF0050D1FC /* ScrumProgressViewStyle.swift in Sources */,
+				68090DCF28D584CA0050D1FC /* MeetingFooterView.swift in Sources */,
+				68090DCD28D477010050D1FC /* ScrumTimer.swift in Sources */,
 				680FB88E28D2AFF2001EA05B /* DailyScrum.swift in Sources */,
 				680FB89628D2CED1001EA05B /* DetailView.swift in Sources */,
+				68090DC928D45D510050D1FC /* MeetingHeaderView.swift in Sources */,
 				680FB89828D2FB7A001EA05B /* DetailEditView.swift in Sources */,
 				680FB89228D2B353001EA05B /* TrailingIconLabelStyle.swift in Sources */,
 				680FB88A28D2AC22001EA05B /* Theme.swift in Sources */,
@@ -319,7 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
