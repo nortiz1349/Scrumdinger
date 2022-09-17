@@ -15,9 +15,9 @@ struct DetailView: View {
 	
     var body: some View {
 		List {
-			Section(header: Text("미팅 정보")) {
+			Section(header: Text("회의 정보")) {
 				NavigationLink(destination: MeetingView(scrum: $scrum)) {
-					Label("미팅 시작하기", systemImage: "timer")
+					Label("회의 시작하기", systemImage: "timer")
 						.font(.headline)
 					.foregroundColor(.accentColor)
 				}
@@ -40,6 +40,17 @@ struct DetailView: View {
 			Section(header: Text("참가자")) {
 				ForEach(scrum.attendees) { attendee in
 					Label(attendee.name, systemImage: "person")
+				}
+			}
+			Section(header: Text("회의 기록")) {
+				if scrum.history.isEmpty {
+					Label("진행된 회의가 없습니다.", systemImage: "calendar.badge.exclamationmark")
+				}
+				ForEach(scrum.history) { history in
+					HStack {
+						Image(systemName: "calendar")
+						Text(history.date, style: .date)
+					}
 				}
 			}
 		}

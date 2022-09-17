@@ -13,6 +13,7 @@
 		68090DCF28D584CA0050D1FC /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */; };
 		68090DD128D591B70050D1FC /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DD028D591B70050D1FC /* AVPlayer+Ding.swift */; };
 		68090DD428D595410050D1FC /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68090DD328D595410050D1FC /* ding.wav */; };
+		68090DD628D5F48F0050D1FC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68090DD528D5F48F0050D1FC /* History.swift */; };
 		680FB88A28D2AC22001EA05B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88928D2AC22001EA05B /* Theme.swift */; };
 		680FB88E28D2AFF2001EA05B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88D28D2AFF2001EA05B /* DailyScrum.swift */; };
 		680FB89028D2B09D001EA05B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB88F28D2B09D001EA05B /* CardView.swift */; };
@@ -35,6 +36,7 @@
 		68090DCE28D584CA0050D1FC /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		68090DD028D591B70050D1FC /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		68090DD328D595410050D1FC /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		68090DD528D5F48F0050D1FC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		680FB88928D2AC22001EA05B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		680FB88D28D2AFF2001EA05B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		680FB88F28D2B09D001EA05B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				680FB88928D2AC22001EA05B /* Theme.swift */,
 				680FB88D28D2AFF2001EA05B /* DailyScrum.swift */,
 				68090DCC28D477010050D1FC /* ScrumTimer.swift */,
+				68090DD528D5F48F0050D1FC /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68090DD628D5F48F0050D1FC /* History.swift in Sources */,
 				680FB89C28D30FE1001EA05B /* ThemePicker.swift in Sources */,
 				68090DCB28D462BF0050D1FC /* ScrumProgressViewStyle.swift in Sources */,
 				68090DCF28D584CA0050D1FC /* MeetingFooterView.swift in Sources */,

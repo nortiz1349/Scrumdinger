@@ -21,7 +21,7 @@ struct CardView: View {
 					.accessibilityLabel("참가자 \(scrum.attendees.count) 명")
 				Spacer()
 				Label("\(scrum.lengthInMinutes)", systemImage: "clock")
-					.accessibilityLabel("미팅 시간 \(scrum.lengthInMinutes) 분")
+					.accessibilityLabel("회의 시간 \(scrum.lengthInMinutes) 분")
 					.labelStyle(.trailingIcon)
 			}
 			.font(.caption)

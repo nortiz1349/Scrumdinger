@@ -13,7 +13,7 @@ struct DetailEditView: View {
 	
     var body: some View {
 		Form {
-			Section(header: Text("미팅 정보")) {
+			Section(header: Text("회의 정보")) {
 				TextField("제목", text: $data.title)
 				HStack {
 					Slider(value: $data.lengthInMinutes, in: 5...30, step: 1) {
