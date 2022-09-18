@@ -27,6 +27,7 @@
 		6839383528D21638009F9CF4 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839383428D21638009F9CF4 /* MeetingView.swift */; };
 		6839383728D21639009F9CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6839383628D21639009F9CF4 /* Assets.xcassets */; };
 		6839383A28D21639009F9CF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6839383928D21639009F9CF4 /* Preview Assets.xcassets */; };
+		68CC31B328D74FD40039E123 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC31B228D74FD40039E123 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		6839383428D21638009F9CF4 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		6839383628D21639009F9CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6839383928D21639009F9CF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68CC31B228D74FD40039E123 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				680FB88D28D2AFF2001EA05B /* DailyScrum.swift */,
 				68090DCC28D477010050D1FC /* ScrumTimer.swift */,
 				68090DD528D5F48F0050D1FC /* History.swift */,
+				68CC31B228D74FD40039E123 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				680FB89C28D30FE1001EA05B /* ThemePicker.swift in Sources */,
 				68090DCB28D462BF0050D1FC /* ScrumProgressViewStyle.swift in Sources */,
 				68090DCF28D584CA0050D1FC /* MeetingFooterView.swift in Sources */,
+				68CC31B328D74FD40039E123 /* ScrumStore.swift in Sources */,
 				68090DCD28D477010050D1FC /* ScrumTimer.swift in Sources */,
 				680FB88E28D2AFF2001EA05B /* DailyScrum.swift in Sources */,
 				680FB89628D2CED1001EA05B /* DetailView.swift in Sources */,
