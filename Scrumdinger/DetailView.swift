@@ -47,9 +47,11 @@ struct DetailView: View {
 					Label("진행된 회의가 없습니다.", systemImage: "calendar.badge.exclamationmark")
 				}
 				ForEach(scrum.history) { history in
-					HStack {
-						Image(systemName: "calendar")
-						Text(history.date, style: .date)
+					NavigationLink(destination: HistoryView(history: history)) {
+						HStack {
+							Image(systemName: "calendar")
+							Text(history.date, style: .date)
+						}
 					}
 				}
 			}
